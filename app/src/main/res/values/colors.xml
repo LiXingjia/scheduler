@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#a1c086</color>
+    <color name="gray2">#ffcccccc</color>
+    <color name="gray3">#ffefefef</color>
+    <color name="gray4">#fff8f8f8</color>
+    <color name="gray5">#fff0f0f4</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+
+    <color name="blue_light">#1966FF</color>
+    <color name="blue">#212845</color>
+    <color name="blue_deep">#383d53</color>
+    <color name="chrome">#a3a3a3</color>
+    <color name="ghost">#a85c5c5c</color>
+    <color name="gravel">#1e1e1e</color>
+    <color name="grey">#3d3636</color>
+    <color name="lake">#235b49</color>
+
+    <!-- Grey-->
+    <color name="grey_000">#FFFFFF</color>
+    <color name="grey_050">#FAFAFA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+    <color name="colorMainGreen">#40cab3</color>
+    <color name="background_gray">#ebebeb</color>
+
+    <color name="Blue">#1296db</color>
+    <color name="bgGray">#ffd8d8d8</color>
+    <color name="TextGray">#ff888888</color>
+    <color name="colorBlueBtnNormal">#71D4F9</color>
+    <color name="skyBlue">#5cacee</color>
+    <color name="unchoose">#16245C</color>
+    <color name="choose">#212845</color>
+    <color name="colorTiniGray">#44000000</color>
+    <color name="colorGray">#88000000</color>
+    <color name="gray">#808080</color><!--灰色 -->
+    <color name="red">#FF0000</color><!--红色 -->
+    <color name="main">#a1c086</color>
+    <color name="main_dark">#547c31</color>
+    <color name="main_light">#d5f2bc</color>
+
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_background"
+    android:orientation="vertical"
+    android:background="@drawable/beijing">
+
+    <com.in.timelinenested.viewClass.CircleImageView
+        android:layout_width="60dp"
+        android:src="@drawable/head"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:id="@+id/head"
+        android:layout_marginTop="10dp"/>
+
+<RelativeLayout
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+
+
+    <View
+        android:layout_marginStart="8dp"
+        android:id="@+id/view_line_1"
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="#b3b3b3" />
+
+    <!--<View-->
+        <!--android:layout_marginStart="33dp"-->
+        <!--android:id="@+id/view_line_2"-->
+        <!--android:layout_width="1dp"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:background="#b3b3b3" />-->
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <csy.menu.satellitemenulib.view.SatelliteMenu
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:menu_postion="right_bottom"
+        app:radius="65dp"
+        app:menu_image_width="45dp"
+        app:menu_item_image_width="40dp"
+        android:id="@+id/mSatelliteMenuRightBottom"/>
+</RelativeLayout>
+</LinearLayout>

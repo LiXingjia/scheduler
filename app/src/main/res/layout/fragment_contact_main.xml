@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    <RelativeLayout
+
+        android:background="@color/white"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+        <csy.menu.satellitemenulib.view.SatelliteMenu
+            android:id="@+id/Contact_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:menu_image_width="45dp"
+            app:menu_item_image_width="40dp"
+            app:menu_postion="right_bottom"
+            app:radius="65dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
