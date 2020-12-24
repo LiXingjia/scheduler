@@ -186,7 +186,8 @@ public class MainActivity extends Activity {
         mUser = BmobUser.getCurrentUser(User.class);
         //获取头像
         final String IMAGE_URL;
-        IMAGE_URL= mUser.getU_pic_url().getFileUrl();
+//        IMAGE_URL= mUser.getU_pic_url().getFileUrl();
+        IMAGE_URL="https://cdn2.jianshu.io/assets/default_avatar/9-cceda3cf5072bcdd77e8ca4f21c40998.jpg";
         new Thread(new Runnable(){
 
             @Override
